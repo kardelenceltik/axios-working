@@ -1,5 +1,5 @@
 axios.get("https://reqres.in/api/users").then((response) => {
-  console.log(response);
+  
   let userElement = document.getElementById("users-list-area");
 
   response.data.data.forEach((user) => {
